@@ -18,7 +18,7 @@
 #include "screen_i2c.h"
 
 // this is the max frequency allowed by the OLED screen
-#define SCREEN_I2C_MASTER_FREQ_HZ 1800000
+#define SCREEN_I2C_MASTER_FREQ_HZ 1200000
 
 static const char *TAG = "screen.i2c";
 
@@ -73,7 +73,6 @@ void screen_i2c_shutdown(screen_i2c_config_t *cfg, u8g2_t *u8g2)
         // No RST pin, just turn on powersave mode
         u8g2_SetPowerSave(u8g2, 1);
     }
-    return false;
 }
 
 void screen_i2c_power_on(screen_i2c_config_t *cfg, u8g2_t *u8g2)
