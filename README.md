@@ -33,6 +33,18 @@ the downlink and uplink paths.
 
 ---------------------------------------------
 
+# Hardware Details
+
+TX:
+  
+Mini RX:
+
+Groundstation:
+
+
+---------------------------------------------
+
+
 Original text from the Raven Project:
 
 Raven is completely open source a long range system (LRS) based on LoRa
