@@ -3,26 +3,25 @@
 A no-comprimises long range 400 MHz RC and Telemetry radio system.
 
 Main Features:
-  - True 1 Watt RF output on both the TX and RX side.
-  - Telemetry (uplink) range equal to RC (downlink) range
-  - Antenna SWR measurement to detect bad/broken antennas (both TX and RX) 
-  - Intergrated emergency backup LiPo for beeper and low power beacon transmissions (SF12 LORA position transmissions)
-  - OTA firmware updates directly from the TX module
-  - All settings configurable via Wifi
+- True 1 Watt RF output on both the TX and RX side.
+- Telemetry (uplink) range equal to RC (downlink) range
+- Antenna SWR measurement to detect bad/broken antennas (both TX and RX) 
+- Intergrated emergency backup LiPo for beeper and low power beacon transmissions (SF12 LORA position transmissions)
+- OTA firmware updates directly from the TX module
+- All settings configurable via Wifi
   
-  Telemetry Formats Supported:
-    - EagleTree Vector Opentelemetry
-    - Ardupilot MSPv2
+Telemetry Formats Supported:
+- EagleTree Vector Opentelemetry
+- Ardupilot MSPv2
   
-  Long term TODOs:
-    - WS2811/12b/13 LED support.  Drives 100's of LEDs and uses the parralel output modes
-      of FastLED for persistance of vision pixel painting.  Use WS2813 leds for pixel painting
-      because of their faster refresh rate.
-      - Potential: Pixel painting animation update rate calculated from GPS speed passed via telemetry 
-    - Wifi based position beaconing
-      - Potential: Pass neighbor position data back via the telemetry uplink
-    - Ground station support
-      - Overlay OSD for neighbor position data
+Long term TODOs:
+- WS2811/12b/13 LED support.  Drives 100's of LEDs and uses the parralel output modes of FastLED for persistance of vision pixel painting.  Use WS2813 leds for pixel painting because of their faster refresh rate.
+  - Potential: Pixel painting animation update rate calculated from GPS speed passed via telemetry 
+- Wifi based position beaconing
+  - Potential: Pass neighbor position data back via the telemetry uplink
+- Ground station support
+  - Overlay OSD for neighbor position data
+  - Pan/Tilt Servo output
   
 The software for this project is based on the hard work of the 
 [raven project](https://github.com/RavenLRS/raven).
