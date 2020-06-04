@@ -5,6 +5,10 @@
 
 #include <hal/ws2812.h>
 
+//#include <components/soc/esp32/include/soc/dport_access.h>
+#include <soc/dport_access.h>
+#include <soc/dport_reg.h>
+
 #define DIVIDER 4     /* Above 4, timings start to deviate*/
 #define DURATION 12.5 /* minimum time of a single RMT duration \
                          in nanoseconds based on clock */

@@ -3,7 +3,7 @@
 
 #include <driver/uart.h>
 
-#include <hal/gpio.h>
+#include <driver/gpio.h>
 #include <hal/mutex.h>
 
 #include "io/serial.h"

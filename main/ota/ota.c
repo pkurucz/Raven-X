@@ -5,7 +5,7 @@
 #include <freertos/FreeRTOS.h>
 #include <freertos/task.h>
 
-#include <rom/miniz.h>
+#include <esp32/rom/miniz.h>
 
 #include <esp_ota_ops.h>
 
